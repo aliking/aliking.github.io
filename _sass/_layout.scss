@@ -522,6 +522,37 @@
   }
 }
 
+// ── Panels ────────────────────────────────────────────────────
+.panel {
+  background: $bg-card;
+  border: 1px solid $border-color;
+  border-radius: $radius-lg;
+  padding: $spacing-xl;
+  box-shadow: $shadow-card;
+  transition: border-color $transition-base, box-shadow $transition-base, transform $transition-base;
+  margin-bottom: $spacing-2xl;
+
+  h3 {
+    margin-top: $spacing-sm;
+  }
+}
+
+.panel-images {
+  display: flex;
+  gap: $spacing-lg;
+  margin-top: $spacing-lg;
+  width: 100%;
+  overflow-x: scroll;
+
+  img {
+    border-radius: $radius-md;
+    border: 1px solid $border-color;
+    box-shadow: $shadow-card;
+    transition: transform $transition-base, box-shadow $transition-base;
+    height: 400px;
+  }
+}
+
 // ── Syntax highlighting tweaks ────────────────────────────────
 .highlight {
   background: $bg-card !important;

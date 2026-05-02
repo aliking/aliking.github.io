@@ -1,15 +1,15 @@
 ---
 layout: page
 title: About
-description: A bit about me, the work I do, and the weird things I build.
+description: A superficial blurb about me.
 permalink: /about/
 ---
 
-Hey, I'm **aliking** — a software developer who enjoys building things at the intersection of utility and whimsy.
+Hey, I'm **ali king** — collector of skills, vaccines and passports. I've been working in software for decades and as a full stack developer since 2018.
 
-By day I write code that (mostly) works. By night I tinker with whatever rabbit hole has captured my attention this week — hardware projects, generative art, automation scripts that save three seconds and cost twenty hours to build.
+I like to exist juuust at the edge of imposter syndrome. I think that's where you learn the most, and as a bonus you get the excitement of potential actual disaster to make you feel alive.
 
-## What I work with
+<!-- ## What I work with
 
 <div class="skills-grid">
   <div class="skill-item"><span class="skill-icon">🦀</span>Rust</div>
@@ -20,14 +20,9 @@ By day I write code that (mostly) works. By night I tinker with whatever rabbit 
   <div class="skill-item"><span class="skill-icon">🐳</span>Docker</div>
   <div class="skill-item"><span class="skill-icon">☁️</span>AWS / GCP</div>
   <div class="skill-item"><span class="skill-icon">🔧</span>Embedded C</div>
-</div>
+</div> -->
 
-## The weird projects
+## The projects
 
-Some of the most interesting work I do doesn't have a business case. It just seemed like a good idea at 2am.
-You can find a collection of these on the [projects](/projects/) page — ranging from useful tools to elaborate nonsense.
+Mostly I'm too busy doing the thing to write about the thing. You can find a collection of poorly documented work on the [projects](/projects/) page.
 
-## Get in touch
-
-Found something interesting here? Want to collaborate on something weird?
-Check out my [GitHub](https://github.com/aliking) or file an issue on whatever repo caught your eye.

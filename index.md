@@ -7,8 +7,7 @@ title: Home
   <p class="hero-eyebrow">// hello, world</p>
   <h1 class="hero-title">aliking</h1>
   <p class="hero-sub">
-    Software developer, tinkerer, and maker of things that probably shouldn't exist —
-    but are more interesting because they do.
+    Developer, Dabbler, Dillettante.
   </p>
   <div class="hero-cta">
     <a href="{{ '/projects' | relative_url }}" class="btn btn-primary">View Projects</a>
@@ -31,7 +30,7 @@ title: Home
     <span class="prompt">❯ </span><span class="cmd">cat interests.txt</span>
   </div>
   <div class="terminal-line">
-    <span class="out">software engineering · weird side projects · open source</span>
+    <span class="out">software engineering · automation · repeatable processes</span>
   </div>
   <div class="terminal-line">
     <span class="out">hardware hacking · generative art · overthinking things</span>
@@ -42,31 +41,8 @@ title: Home
   </div>
 </div>
 
-{% assign recent_posts = site.posts | limit: 3 %}
-{% if recent_posts.size > 0 %}
-<section>
-  <p class="section-label">// recent posts</p>
-  <h2 class="section-title">Writing</h2>
-  <ul class="post-list">
-    {% for post in recent_posts %}
-    <li class="post-item">
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <div>
-        <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% if post.excerpt %}
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-        {% endif %}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-  <a href="{{ '/blog' | relative_url }}" class="btn btn-outline" style="margin-top: 1rem;">All posts →</a>
-</section>
-{% endif %}
-
 {% assign featured = site.projects | where: "featured", true | limit: 3 %}
 {% if featured.size > 0 %}
-<div class="ornament">✦ · · ✦ · · ✦</div>
 <section>
   <p class="section-label">// selected work</p>
   <h2 class="section-title">Projects</h2>
@@ -90,5 +66,28 @@ title: Home
     {% endfor %}
   </div>
   <a href="{{ '/projects' | relative_url }}" class="btn btn-outline" style="margin-top: 2rem;">All projects →</a>
+</section>
+{% endif %}
+
+{% assign recent_posts = site.posts | limit: 3 %}
+{% if recent_posts.size > 0 %}
+<div class="ornament">✦ · · ✦ · · ✦</div>
+<section>
+  <p class="section-label">// recent posts</p>
+  <h2 class="section-title">Writing</h2>
+  <ul class="post-list">
+    {% for post in recent_posts %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div>
+        <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.excerpt %}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ '/blog' | relative_url }}" class="btn btn-outline" style="margin-top: 1rem;">All posts →</a>
 </section>
 {% endif %}

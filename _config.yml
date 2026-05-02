@@ -1,5 +1,5 @@
 title: aliking
-description: Software developer, tinkerer, and maker of weird things.
+description: Full Stack Software developer, .
 author: aliking
 email: ""
 baseurl: ""
@@ -24,6 +24,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll_picture_tag
 
 # Collections
 collections:

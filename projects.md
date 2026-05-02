@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Projects
-description: Things I've built — useful, weird, or both.
+description: Things I've built.
 permalink: /projects/
 ---
 
-A collection of software projects, side experiments, and things that felt important to build at the time.
 
 {% assign all_projects = site.projects %}
 {% if all_projects.size > 0 %}
