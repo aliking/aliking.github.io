@@ -8,9 +8,9 @@ link: "https://github.com/aliking/sdet_challenge"
 featured: false
 ---
 
-A take-home coding challenge for a Software Development Engineer in Test role. I initially conceived this as an add-on to a job description, where the challenge was presented as a 'way to make your cover letter stand out' by sumbitting it as JSON document that met some specific criteria.
+A take-home coding challenge for a Software Development Engineer in Test role. I initially conceived this as an add-on to a job description, where the challenge was presented as a 'way to make your cover letter stand out' by submitting it as JSON document that met some specific criteria.
 
-Later, it was just presented to candidates as a standard take-home test. The idea was that there was a URL that would return one of 100 JSON documents based on a query parameter and that some of those were invalid. The candidate's task was to find the invalid documents, use their ids to creat a 'checkvalue' that would prove that they had found them all and then submit that as part of their own valid json document.
+Later, it was just presented to candidates as a standard take-home test. The idea was that there was a URL that would return one of 100 JSON documents based on a query parameter and that some of those were invalid. The candidate's task was to find the invalid documents, use their ids to create a 'checkvalue' that would prove that they had found them all and then submit that as part of their own valid json document.
 
 At the back of my mind I was always slightly worried that someone would just check all the documents manually, because that would have been terrible for them and immediately disqualifying.
 

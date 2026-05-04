@@ -15,7 +15,7 @@ This was a project I did at work, but separate from my normal responsibilities. 
 The V1 dolly was a portable single wood frame with a chain-driven camera tripod on rails. It was controlled by an Arduino in an Altoids tin, and powered by a 6V battery pack.
 
 Test capture:
-<video width="100%" height="auto" controls>
+<video style="width: 100%; height: auto;" controls>
   <source src="{{ '/assets/media/timelapse_dolly/dolly.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>

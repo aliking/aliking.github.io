@@ -9,5 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll_picture_tag", "~> 2.0"
-  gem 'jekyll-simple-icons'
+  gem "jekyll-simple-icons", "~> 0.1"
 end
