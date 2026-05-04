@@ -14,15 +14,15 @@ panels:
     - url: https://www.instructables.com/Carol-from-Where-the-wild-things-areMovie-Co
       text: Instructables Guide
   images:
-  - path: assets/images/halloween/carol_max.jpg
+  - path: assets/media/halloween/carol_max.jpg
     alt: Getty Images photo of the 2008 parade, featuring Max and a wild thing
-  - path: assets/images/halloween/foam.JPG
+  - path: assets/media/halloween/foam.JPG
     alt: Paper mache and foam built
-  - path: assets/images/halloween/feathers.JPG
+  - path: assets/media/halloween/feathers.JPG
     alt: Fur and feathers added
-  - path: assets/images/halloween/carol.jpg
+  - path: assets/media/halloween/carol.jpg
     alt: Final look, with Max
-  - path: assets/images/halloween/jake_the_dog.jpg
+  - path: assets/media/halloween/jake_the_dog.jpg
     alt: Jake the Dog costume, with Finn
 - title: Fabric and Sewing
   description:
@@ -34,43 +34,43 @@ panels:
   - Number 5 and Delores from The Umbella Academy.
   - Ice King from Adventure Time.
   images:
-  - path: assets/images/halloween/tenzin.jpg
+  - path: assets/media/halloween/tenzin.jpg
     alt: Tenzin and Milo costumes
-  - path: assets/images/halloween/equalist.jpg
+  - path: assets/media/halloween/equalist.jpg
     alt: Equalist
-  - path: assets/images/halloween/milo.jpg
+  - path: assets/media/halloween/milo.jpg
     alt: Equalist and Milo
-  - path: assets/images/halloween/cat_hat.jpg
+  - path: assets/media/halloween/cat_hat.jpg
     alt: Cat in the Hat costume
-  - path: assets/images/halloween/curious_george.jpg
+  - path: assets/media/halloween/curious_george.jpg
     alt: Curious George and the Man in the Big Yellow Hat
-  - path: assets/images/halloween/lecter.jpg
+  - path: assets/media/halloween/lecter.jpg
     alt: Hannibal Lecter. The material for the straight jacket is a canvas drop cloth.
-  - path: assets/images/halloween/spider_king.jpg
+  - path: assets/media/halloween/spider_king.jpg
     alt: Spider King. He's from another part of the spiderverse...
-  - path: assets/images/halloween/dolores.jpg
+  - path: assets/media/halloween/dolores.jpg
     alt: Number 5 (with Delores) from the Umbrella Academy
-  - path: assets/images/halloween/ice_king.jpg
+  - path: assets/media/halloween/ice_king.jpg
     alt: Ice King and Finn from Adventure Time.
 - title: Inflatables
   description: Inflatable costumes are the solution to "how do I transport this giant thing on the subway?" and "how do I store this?". The first of these are adapted from inflatable sumo suits, later ones are sewed from kite fabric.
   images:
-  - path: assets/images/halloween/snorlax.jpg
+  - path: assets/media/halloween/snorlax.jpg
     alt: Progress shot building inflatable Snorlax
-  - path: assets/images/halloween/jigglypuff.jpg
+  - path: assets/media/halloween/jigglypuff.jpg
     alt: Inflatable Jigglypuff (plus Ash Ketchum)
-  - path: assets/images/halloween/popsicle.jpg
+  - path: assets/media/halloween/popsicle.jpg
     alt: Inflatable raimbow ice pop
-  - path: assets/images/halloween/animoto_logo.png
+  - path: assets/media/halloween/animoto_logo.png
     alt: Inflatable Animoto logo costume
 - title: Pepakura
   description: Pepakura is the art of making 3D models out of paper. It's a great way to make a large number of pieces, or to make and cut out kits that other people can assemble.
   images:
-  - path: assets/images/halloween/cat_heads.jpg
+  - path: assets/media/halloween/cat_heads.jpg
     alt: Papercraft cat heads
-  - path: assets/images/halloween/plague_doctor.jpg
+  - path: assets/media/halloween/plague_doctor.jpg
     alt: Plague doctors
-  - path: assets/images/halloween/cat_heads2.jpg
+  - path: assets/media/halloween/cat_heads2.jpg
     alt: Papercraft cat heads
 ---
 
