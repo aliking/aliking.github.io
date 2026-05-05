@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll_picture_tag
+  - jekyll-simple-icons
 
 # Collections
 collections:
