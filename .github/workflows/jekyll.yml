@@ -35,9 +35,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
 
-      - name: test cdn access
-        run: curl -ivvv https://cdn.simpleicons.org/javascript/F7DF1E
-
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
