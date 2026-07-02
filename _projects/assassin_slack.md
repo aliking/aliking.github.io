@@ -3,7 +3,7 @@ layout: project
 title: "Assassin Slack webhook"
 description: "A Slack slash command for anonymous taunting during an office assassin game."
 tech: [Go, Slack API, Heroku]
-status: "🟢 Archive"
+status: "🔴 Archive"
 link: "https://github.com/aliking/assassin-slack"
 featured: true
 ---

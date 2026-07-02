@@ -3,7 +3,7 @@ layout: project
 title: "Card Stack Challenge App"
 description: "A physical computing challenge and app for recruiting fairs"
 tech: [Ruby, Sinatra, Heroku, Punchcards]
-status: "🟢 Archive"
+status: "🔴 Archive"
 link: "https://github.com/aliking/card_stack"
 featured: true
 ---

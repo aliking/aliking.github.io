@@ -3,7 +3,7 @@ layout: project
 title: "Timelapse Dolly"
 description: "Rig and driver for a timelapse dolly."
 tech: [Hardware, Arduino]
-status: "🟢 Archive"
+status: "🔴 Archive"
 link: "https://github.com/aliking/timelapse_dolly"
 featured: true
 ---

@@ -3,7 +3,7 @@ layout: project
 title: "SDET Challenge"
 description: "Take-home challenge for SDET role."
 tech: [JSON Schema, AWS Lambda, JavaScript]
-status: "🟢 Archived"
+status: "🔴 Archived"
 link: "https://github.com/aliking/sdet_challenge"
 featured: false
 ---
