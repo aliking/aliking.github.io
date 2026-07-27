@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll_picture_tag
+  - jekyll-page-asset
 
 # Collections
 collections:
@@ -49,6 +50,9 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+
+page_asset:
+  asset_root: assets/media
 
 # Exclude from processing
 exclude:

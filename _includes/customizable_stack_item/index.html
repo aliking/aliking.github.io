@@ -1,0 +1,265 @@
+<style>
+  #styleForm {
+    width: 480px;
+    margin: 16px 8px;
+
+    label {
+      display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 2px;
+    }
+  }
+
+  .project-stack-item-row {
+    --stack-label-left: 27.7%;
+    --stack-label-right: 17.1%;
+    --stack-label-top: 10.8%;
+    --stack-label-bottom: 10.1%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    padding: auto;
+  }
+
+  .project-stack-item {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    height: 100px;
+  }
+
+
+  .project-stack-item-art {
+    height: 100%;
+    width: auto;
+
+    svg {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      display: block;
+    }
+  }
+
+  .project-stack-item-label {
+    position: absolute;
+    left: var(--stack-label-left);
+    right: var(--stack-label-right);
+    top: var(--stack-label-top);
+    bottom: var(--stack-label-bottom);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.35rem;
+    overflow: hidden;
+    pointer-events: none;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    text {
+      fill: #191919;
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      ;
+    }
+  }
+
+  .stack-item-text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+
+  .stack-item-text::after {
+    font-weight: 700;
+  }
+
+  .stack-item-text1--tape,
+  .stack-item-text4--tape {
+    justify-content: start;
+  }
+
+  .stack-item-text2--tape,
+  .stack-item-text5--tape {
+    justify-content: center;
+  }
+
+  .stack-item-text3--tape,
+  .stack-item-text6--tape {
+    justify-content: end;
+  }
+
+  .stack-item-text1--tape,
+  .stack-item-text2--tape,
+  .stack-item-text3--tape {
+    left: 17%;
+    right: 73%;
+    top: var(--stack-label-top);
+    bottom: var(--stack-label-bottom);
+  }
+
+  .stack-item-text4--tape,
+  .stack-item-text5--tape,
+  .stack-item-text6--tape {
+    left: 83%;
+    right: 6.5%;
+    top: var(--stack-label-top);
+    bottom: var(--stack-label-bottom);
+  }
+
+  .stack-item-text1--tape::after,
+  .stack-item-text2--tape::after,
+  .stack-item-text3--tape::after,
+  .stack-item-text4--tape::after,
+  .stack-item-text5--tape::after,
+  .stack-item-text6--tape::after {
+    writing-mode: sideways-lr;
+  }
+
+  .stack-item-text1::after {
+    content: var(--text1);
+    font-size: var(--text1_size);
+    color: var(--text1_color);
+  }
+
+  .stack-item-text2::after {
+    content: var(--text2);
+    font-size: var(--text2_size);
+    color: var(--text2_color);
+  }
+
+  .stack-item-text3::after {
+    content: var(--text3);
+    font-size: var(--text3_size);
+    color: var(--text3_color);
+  }
+
+  .stack-item-text4::after {
+    content: var(--text4);
+    font-size: var(--text4_size);
+    color: var(--text4_color);
+  }
+
+  .stack-item-text5::after {
+    content: var(--text5);
+    font-size: var(--text5_size);
+    color: var(--text5_color);
+  }
+
+  .stack-item-text6::after {
+    content: var(--text6);
+    font-size: var(--text6_size);
+    color: var(--text6_color);
+  }
+
+
+  .tape {
+    --tab_unlocked: 1;
+    --color1: #be2c2c;
+    --color6: #be2c2c;
+    --color2: #ead4d4;
+
+
+    --text1: "VIDEO";
+    --text1_color: #ead4d4;
+    --text1_size: 17px;
+
+    --text2: "CASSETTE";
+    --text2_color: #be2c2c;
+    --text2_size: 14px;
+
+    --text6: "HI-DEF";
+    --text6_color: #ead4d4;
+    --text6_size: 17px;
+  }
+</style>
+
+<div class="project-stack-item-row">
+  <div class="project-stack-item">
+    <div class="project-stack-item-art tape" aria-hidden="true">
+      {% include customizable_stack_item/tape.svg %}
+      <div class="stack-item-text stack-item-text1 stack-item-text1--tape"></div>
+      <div class="stack-item-text stack-item-text2 stack-item-text2--tape"></div>
+      <div class="stack-item-text stack-item-text3 stack-item-text3--tape"></div>
+      <div class="stack-item-text stack-item-text4 stack-item-text4--tape"></div>
+      <div class="stack-item-text stack-item-text5 stack-item-text5--tape"></div>
+      <div class="stack-item-text stack-item-text6 stack-item-text6--tape"></div>
+    </div>
+    <div class="project-stack-item-label" aria-hidden="true">
+      <svg viewBox="0 0 500 50" width="100%" role="presentation" focusable="false">
+        <text x="0" y="40" font-size="40" font-weight="700" textLength="100%" lengthAdjust="spacingAndGlyphs"></text>
+      </svg>
+    </div>
+  </div>
+</div>
+<form id="styleForm">
+  <!-- The IDs here match the exact name of the CSS variables for simplicity -->
+  <label>Color Zones: <input type="color" id="color1" value="#be2c2c">
+    <input type="color" id="color2" value="#ead4d4">
+    <input type="color" id="color3" value="#f0f0f0">
+    <input type="color" id="color4" value="#f0f0f0">
+    <input type="color" id="color5" value="#f0f0f0">
+    <input type="color" id="color6" value="#be2c2c">
+  </label>
+
+  <label>Copy tab: <input type="checkbox" id="tab_unlocked"></label>
+  <label>Text 1: <input type="text" id="text1" value="VIDEO">
+    <input type="color" id="text1_color" value="#ead4d4">
+    <input type="number" id="text1_size" value=17>
+  </label>
+
+  <label>Text 2: <input type="text" id="text2" value="CASSETTE">
+    <input type="color" id="text2_color" value="#f0f0f0">
+    <input type="number" id="text2_size" value=14>
+  </label>
+
+  <label>Text 3: <input type="text" id="text3" value="">
+    <input type="color" id="text3_color" value="#ffffff">
+    <input type="number" id="text3_size" value=17>
+  </label>
+
+  <label>Text 4: <input type="text" id="text4" value="">
+    <input type="color" id="text4_color" value="#ffffff">
+    <input type="number" id="text4_size" value=17>
+  </label>
+
+  <label>Text 5: <input type="text" id="text5" value="">
+    <input type="color" id="text5_color" value="#ffffff">
+    <input type="number" id="text5_size" value=17>
+  </label>
+
+  <label>Text 6: <input type="text" id="text6" value="HI-DEF">
+    <input type="color" id="text6_color" value="#ead4d4">
+    <input type="number" id="text6_size" value=17>
+  </label>
+
+</form>
+<script>
+  const form = document.getElementById('styleForm');
+  const tape = document.querySelector('.tape');
+
+  form.addEventListener('input', (event) => {
+    const input = event.target;
+    const variableName = `--${input.id}`;
+    let value = input.value;
+
+    if( input.type == "checkbox") {
+      value = input.checked ? 0 : 1
+    }
+    if (input.type == "number"){
+      value += 'px'
+    }
+    if (input.type == "text") {
+      value = '"' + value + '"'
+    }
+    // Update the CSS variable on the target element
+    tape.style.setProperty(variableName, value);
+  });
+</script>
