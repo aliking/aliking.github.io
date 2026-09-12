@@ -8,11 +8,11 @@ link: "https://github.com/aliking/confetti_cannon"
 featured: true
 panel:
   images:
-  - path: assets/media/big_red_button/thismachinekillsfascists.png
+  - path: assets/media/big-red-button/thismachinekillsfascists.png
     alt: This confetti cannon kills fascists
-  - path: assets/media/big_red_button/confetti.png
+  - path: assets/media/big-red-button/confetti.png
     alt: Confetti from the cannon
-  - path: assets/media/big_red_button/cannon.jpg
+  - path: assets/media/big-red-button/cannon.jpg
     alt: The confetti cannon prototype
 ---
 
@@ -26,10 +26,10 @@ The final product was much more restrained than the prototype: just a pneumatic 
 
 
 However, initially, there was a vision.
-{% picture "/assets/media/big_red_button/controlbox.png" alt="The control box for the launch system" %}
+{% page_asset image controlbox.png alt="The control box for the launch system" %}
 A control box (with a big red button), two key switches and a status light, all hooked up to a particle.io microcontroller. The microcontroller could register events from the controls and set the status light.
 
-{% picture "/assets/media/big_red_button/panel.png" alt="Display panel" %}
+{% page_asset image panel.png alt="Display panel" %}
 A retro inspired status display with a main information panel surrounded by technical looking nonsense. This is unfinished in prototype form, but each of the sections could have had different important looking status updating. This is scaled to look good at 4:3 and be displayed on a large CRT monitor using a raspberry pi.
 
 The display panel is a web page that uses websockets to update it remotely, so that the panel can be loaded, and then react to events from the control box. It's a fairly fragile system, the server has an internal state machine and is waiting for events in a particular sequence from the control box.
@@ -43,7 +43,7 @@ This video shows the prototype in action using the web backup controls. The cont
  * 1111 - Press the big red button
 
 <video style="width: 100%; height: auto;" controls muted>
-  <source src="{{ '/assets/media/big_red_button/display_panel.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/media/big-red-button/display_panel.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

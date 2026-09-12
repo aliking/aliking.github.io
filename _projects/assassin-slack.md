@@ -14,4 +14,4 @@ I wanted place for gossip, smacktalk and game updates, and that was the Slack ch
 
 Registered players each had an alias name and an avatar. When one of them used the slash command, the bot would post their message with their alias and avatar. When I used it, it would post as 'The Director' and if anyone else used it, it would post as 'Civilian'.
 
-{% picture "/assets/media/assassin_slack/citizen.png" alt="Example of a message posted by the bot as 'Civilian'" %}
+{% page_asset image citizen.png alt="Example of a message posted by the bot as 'Civilian'" %}

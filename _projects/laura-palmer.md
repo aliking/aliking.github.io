@@ -8,7 +8,7 @@ link: "https://github.com/aliking/laura_palmer"
 featured: true
 ---
 
-{% picture "/assets/media/laura_palmer/lptv.jpg" alt="The original image of Laura Palmer on the TV" %}
+{% page_asset image lptv.jpg alt="The original image of Laura Palmer on the TV" %}
 
 There's a freeze frame image on a TV in the pilot episode of Twin Peaks, showing a home video of Laura Palmer. I thought it would make a good painting, stylized as white 'scanlines' of varying thickness.
 
@@ -18,7 +18,7 @@ I converted the image to a vector format and used an electronic cutter to cut ou
 
 The result is something that cameras struggle to capture accurately, and which genuinely makes your eyes go funny if you stare at it for too long, which I think is pretty great.
 
-{% scroll_scrub_video video_path='/assets/media/laura_palmer/painting.mp4' pixels_per_second=20 %}
+{% scroll_scrub_video video_path='/assets/media/laura-palmer/painting.mp4' pixels_per_second=20 %}
 
 ---
 

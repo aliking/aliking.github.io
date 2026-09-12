@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Jekyll"
+title: "Jekyll Stuff"
 description: "Jekyll Static Site Generator themes and plugins"
 tech: [HTML, Ruby, CSS, Vanilla JavaScript]
 status: "🟢 Ongoing"
