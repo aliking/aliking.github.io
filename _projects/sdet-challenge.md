@@ -18,4 +18,4 @@ JSON documents were served from S3 with an AWS Lambda function and AWS gateway, 
 
 This project also included a tool to automate validation of the submitted final document, deployed to Heroku. A technical recruiter could paste the submitted JSON document into the app, and it would report any problems and give some instructions about how I felt about different classes of errors.
 
-{% picture "/assets/media/sdet_challenge/app.png" alt="Screenshot of the app, showing the results of validating a submitted JSON document" %}
+{% page_asset image app.png alt="Screenshot of the app, showing the results of validating a submitted JSON document" %}

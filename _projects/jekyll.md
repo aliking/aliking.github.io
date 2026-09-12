@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Jekyll"
+title: "Jekyll Stuff"
 description: "Jekyll Static Site Generator themes and plugins"
 tech: [HTML, Ruby, CSS, Vanilla JavaScript]
 status: "🟢 Ongoing"
@@ -10,7 +10,7 @@ featured: true
 
 [Jekyll](https://jekyllrb.com/) is a lot of fun, in my opinion. It's a static site generator that allows you to quickly create and update websites using markdown, without a lot of up-front work and without too much _magic_ for my taste. It does simple things well and easily, and if you want to add more complex functionality, you can do so with plugins and custom code.
 
-Following the the ethos of 'easy to use/extensible', I built a plugin: [jekyll-page-asset](https://github.com/aliking/jekyll-page-asset) to let me add simple components to jekyll pages that access assets, with the convention that the assets are placed in a directory for that page. Personal preference, but staying in markdown helps me focus on content, so this is a simple system for just dumping image/video etc in a directory and the referencing it in a custom liquid tag.
+Following the the ethos of 'easy to use/extensible', I built a plugin: [jekyll-page-asset](https://github.com/aliking/jekyll-page-asset) to let me add simple components to jekyll pages that access assets, with the convention that the assets are placed in a directory for that page. Personal preference, but staying in markdown helps me focus on content, so this is a simple system for just dumping image/video etc in a directory and then referencing it in a custom liquid tag.
 
  I also made this fun litle [project portfolio theme](https://github.com/aliking/jekyll-project-stack-portfolio)
 
