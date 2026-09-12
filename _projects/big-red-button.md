@@ -42,8 +42,4 @@ This video shows the prototype in action using the web backup controls. The cont
  * 1110 - Unlock the big red button
  * 1111 - Press the big red button
 
-<video style="width: 100%; height: auto;" controls muted>
-  <source src="{{ '/assets/media/big-red-button/display_panel.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+{% page_asset video display_panel.mp4 %}

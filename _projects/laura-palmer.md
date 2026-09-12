@@ -18,7 +18,7 @@ I converted the image to a vector format and used an electronic cutter to cut ou
 
 The result is something that cameras struggle to capture accurately, and which genuinely makes your eyes go funny if you stare at it for too long, which I think is pretty great.
 
-{% scroll_scrub_video video_path='/assets/media/laura-palmer/painting.mp4' pixels_per_second=20 %}
+{% page_asset scroll_scrub_video painting.mp4 pixels_per_second=20 %}
 
 ---
 
