@@ -1,1 +1,1 @@
-Equalist and Milo
+Equalist and Milo from Avatar The Legend of Korra.
