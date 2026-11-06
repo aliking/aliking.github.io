@@ -6,21 +6,11 @@ tech: [Arduino, IOT, WebSockets, Vanilla JavaScript, PVC]
 status: "🟠 Prototype"
 link: "https://github.com/aliking/confetti_cannon"
 featured: true
-panel:
-  images:
-  - path: assets/media/big-red-button/thismachinekillsfascists.png
-    alt: This confetti cannon kills fascists
-  - path: assets/media/big-red-button/confetti.png
-    alt: Confetti from the cannon
-  - path: assets/media/big-red-button/cannon.jpg
-    alt: The confetti cannon prototype
 ---
 
 Prototype installation for a deliberately elaborate product launch. The orginal spec was something like: "Something spectacular for the Facebook Live launch. A big red button or a confetti cannon".
 
-{% include multi_image_panel.html
-    images=page.panel.images
-  %}
+{% page_asset gallery gallery  %}
 
 The final product was much more restrained than the prototype: just a pneumatic confetti cannon, fired remotely over the internet. There was a _quite_ large red button.
 

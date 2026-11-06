@@ -171,6 +171,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    pointer-events: none;
 }
 
 #page-asset-gallery-controls {
@@ -197,6 +198,15 @@
     &:hover {
         color: $accent-teal;
     }
+}
+
+.gallery-controls-fallback {
+    position: relative;
+    width: 100%;
+    padding: $spacing-sm 0;
+    background: transparent;
+    pointer-events: all;
+    z-index: 221;
 }
 
 .gallery-lightbox-desc {
@@ -328,4 +338,10 @@ body.gallery-lightbox-open {
   border-radius: $radius-md;
   background: $bg-card;
   box-shadow: $shadow-card;
+}
+
+// __ Audio ___________________________________________________
+.page-asset-audio {
+  width: 100%;
+  display: block;
 }
